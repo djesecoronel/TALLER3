@@ -61,7 +61,7 @@ public class Ejercicio5 {
         
         for (int j = 1; j < 5; j++) {
 
-            porce = (totvotos[contador] * 100) / votos;/*para calcular el porcentaje de votos*/
+            porce = (totvotos[contador] * 100) / votos;
             System.out.printf("El " + enunciados[j] + " tiene " + totvotos[contador] + " votos en total con un porcentaje del %.2f \n", porce);
             
             if (totvotos[contador] > mayor) {
@@ -76,9 +76,9 @@ public class Ejercicio5 {
             contador++;
         }
         
-        System.out.println("El " + mayv + " con " + mayor + " votos fue el que obtuvo más votos");
-        System.out.printf("El " + ganvotos + " ha sido el ganador ya que tiene el %.2f porciento de los votos\n", mayporce);
-        System.out.printf("La comuna "+ comuna +" con %.2f porciento de votos es la que tiene mayor porcentaje de votos\n",maycomuna);
+        System.out.println("EL " + mayv + " CON " + mayor + " VOTOS FUE EL MAYOR CANTIDAD TUVO");
+        System.out.printf("EL " + ganvotos + " FUE EL GANADOR CON EL %.2f % DE LOS VOTOS\n", mayporce);
+        System.out.printf("LA COMUNA "+ comuna +" CON EL  %.2f PORCIENTO ES LA QUE MAYOR PORCENTAJE DE VOTOS TIENE\n",maycomuna);
 
     }
 }
